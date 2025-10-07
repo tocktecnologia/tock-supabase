@@ -3,6 +3,8 @@
 # Nome do venv
 VENV_DIR="venv"
 
+rm -r ./venv
+
 # Verifica se python3 está instalado
 if ! command -v python3 &> /dev/null
 then
